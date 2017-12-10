@@ -1,12 +1,10 @@
 {
     "compilerOptions": {
-        "module": "amd",
-        "outFile": "../index.js",
+        "module": "commonjs",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
         "sourceMap": false,
-        "declaration": true,
         "target": "es2017",       
         "lib": [
             "es2017",

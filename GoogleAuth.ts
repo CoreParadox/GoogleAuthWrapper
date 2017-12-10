@@ -4,7 +4,7 @@ import * as passport from 'passport';
 import { AuthConfig } from './Config';
 import {Express}from 'express';
 import { AuthDelegate } from './AuthDelegate';
-export class OAuth {
+export class GoogleAuth {
     app:Express;
     config:AuthConfig;
     delegate:AuthDelegate;
