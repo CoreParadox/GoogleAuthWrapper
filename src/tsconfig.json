@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "system",
+        "module": "amd",
         "outFile": "../index.js",
         "noImplicitAny": true,
         "removeComments": true,
