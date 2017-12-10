@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "outFile": "../index.js",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        "declaration": true,
+        "target": "es2017",       
+        "lib": [
+            "es2017",
+            "dom"
+        ]
+    }
+}
