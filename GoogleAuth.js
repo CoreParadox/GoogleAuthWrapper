@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var GoogleStrategy = require("passport-google-oauth20").Strategy;
 const passport = require("passport");
-class OAuth {
+class GoogleAuth {
     constructor(app, config, delegate) {
         this.app = app;
         this.config = config;
