@@ -3,7 +3,7 @@ declare module 'google-auth-wrapper'{
 		abstract class AuthDelegate {
 			serialize: (user: any) => Promise<any>;
 			deserialize: (user: any) => Promise<any>;
-			accessFailed: Promise<void>;
+			accessFailed: (user: any) => Promise<void>;
 		}
 		abstract class AuthConfig {
 			authRoute: string;
