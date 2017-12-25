@@ -84,5 +84,5 @@ class GoogleAuth {
     }
     ;
 }
-exports.OAuth = GoogleAuth;
+exports.GoogleAuth = GoogleAuth;
 
