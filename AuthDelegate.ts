@@ -1,5 +1,5 @@
 export abstract class AuthDelegate{
     public serialize:(user:any)=>Promise<any>
     public deserialize:(user:any)=>Promise<any>
-    public accessFailed:Promise<void>
+    public accessFailed:(user:any)=>Promise<void>
 }
