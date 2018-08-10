@@ -50,7 +50,7 @@ export class GoogleAuth {
                     }else{
                         return done(null, profile)
                     }
-                    if (accessFailed){ console.log("failure"); delegate.accessFailed.then(_ => {
+                    if (accessFailed){ console.log("failure"); delegate.accessFailed(profile).then(_ => {
                         console.log("failed");
                         done(null, false)
                     })

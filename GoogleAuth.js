@@ -46,7 +46,7 @@ class GoogleAuth {
                 }
                 if (accessFailed) {
                     console.log("failure");
-                    delegate.accessFailed.then(_ => {
+                    delegate.accessFailed(profile).then(_ => {
                         console.log("failed");
                         done(null, false);
                     });
