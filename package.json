@@ -2,7 +2,7 @@
     "name": "google-auth-wrapper",
     "version": "1.0.2",
     "description": "A Simple wrapper for google authentication using passport",
-    "main": "GoogleAuth.js",
+    "main": "index.js",
     "author": "CoreParadox",
     "dependencies": {
         "passport": "^0.3.2",
